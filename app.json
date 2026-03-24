@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "PuckSense Wallet",
+    "slug": "airhockey-wallet-web",
+    "version": "1.0.0",
+    "scheme": "pucksense-wallet",
+    "platforms": ["web", "ios", "android"],
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["expo-router"]
+  }
+}
