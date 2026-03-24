@@ -1,0 +1,15 @@
+[build]
+  # The directory containing the app's source code
+  base = "/"
+  
+  # The command to build the React Native (Expo) web app
+  command = "npx expo export -p web"
+  
+  # The directory containing the built static files
+  publish = "dist"
+
+[[redirects]]
+  # Redirect all traffic to index.html for Single Page Application routing (expo-router)
+  from = "/*"
+  to = "/index.html"
+  status = 200
